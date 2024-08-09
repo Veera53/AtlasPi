@@ -1,27 +1,38 @@
 # SLAMify
 SLAM with Extended Kalman Filter (EKF) using LiDAR on Raspberry Pi
 
-Overview
+# SLAM with Extended Kalman Filter (EKF) using LiDAR on Raspberry Pi
 
-The SLAM with Extended Kalman Filter (EKF) using LiDAR on Raspberry Pi project demonstrates the implementation of the SLAM algorithm, which allows simultaneous localization and mapping using a LiDAR sensor and a Raspberry Pi. This project showcases real-time mapping of an environment while keeping track of the robot's position, providing valuable insights into robotics, embedded systems, and sensor fusion.
+## Overview
 
-Project Objective
-Goal: Develop an embedded SLAM system capable of performing localization and mapping using a Raspberry Pi and a LiDAR sensor.
-Core Concepts: Embedded systems, signal processing, sensor interfacing, communication protocols, and control algorithms.
-What the Project Does
-This project utilizes an Extended Kalman Filter (EKF) to achieve SLAM, enabling:
+This project implements Simultaneous Localization and Mapping (SLAM) using an Extended Kalman Filter (EKF) with LiDAR sensors on a Raspberry Pi. The aim is to enable a mobile robot to navigate an unknown environment by building a map and localizing itself within it in real-time.
 
-Localization: Determining the robot's position and orientation within an unknown environment.
-Mapping: Constructing a map of the environment using LiDAR data.
-Real-time Processing: Handling sensor data and executing algorithms on a Raspberry Pi, suitable for embedded applications.
-Why the Project is Useful
-The project provides a practical understanding of robotics concepts and sensor integration, making it valuable for:
+### Key Features
 
-Academics: A learning tool for students in Electronics and Communication Engineering (ECE) interested in robotics, signal processing, and embedded systems.
-Research: A basis for exploring advanced robotics techniques, such as 3D mapping and sensor fusion.
-Industry: Applications in autonomous vehicles, drones, and robotics navigation.
-Features
-Robust EKF-SLAM Algorithm: Efficient state estimation and mapping using LiDAR.
-Real-time Performance: Optimized for Raspberry Pi, suitable for embedded systems.
-Customizable: Easily extendable to integrate additional sensors or improve mapping techniques.
-Visualization: Provides tools for visualizing mapping results.
+- **Real-Time Mapping:** Utilizes LiDAR data for creating an accurate map of the environment.
+- **Localization:** Employs the Extended Kalman Filter (EKF) for precise localization.
+- **Raspberry Pi Integration:** Designed to run on Raspberry Pi, providing a cost-effective and portable solution.
+- **Python Implementation:** Leveraging Python libraries for processing LiDAR data and implementing EKF.
+
+## Getting Started
+
+Follow these instructions to set up and run the project on your Raspberry Pi.
+
+### Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+- Raspberry Pi with Raspbian OS
+- Python 3.x
+- LiDAR sensor (compatible with Raspberry Pi)
+- Git
+
+### Installation
+
+1. **Clone the Repository**
+
+   Open a terminal on your Raspberry Pi and clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/ekf-slam-lidar-raspberry-pi.git
+   cd ekf-slam-lidar-raspberry-pi

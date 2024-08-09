@@ -1,1 +1,28 @@
+ekf-slam-lidar-raspberry-pi/
+│
+├── src/                    # Source code
+│   ├── main.py             # Main execution script
+│   ├── ekf.py              # EKF algorithm implementation
+│   ├── lidar.py            # LiDAR data processing
+│   └── utils.py            # Utility functions
+│
+├── data/                   # Data files
+│   └── sample_map.pkl      # Sample map data
+│
+├── config/                 # Configuration files
+│   └── config.yaml         # Configuration settings
+│
+├── tests/                  # Test scripts
+│   ├── test_ekf.py         # Test for EKF implementation
+│   └── test_lidar.py       # Test for LiDAR processing
+│
+├── docs/                   # Documentation
+│   └── manual.md           # User manual
+│
+├── assets/                 # Images and other assets
+│   └── slam_diagram.png    # Diagram of SLAM system
+│
+├── requirements.txt        # Python dependencies
+├── LICENSE                 # License information
+└── README.md               # Project overview
 

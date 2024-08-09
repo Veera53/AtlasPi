@@ -34,5 +34,5 @@ Before you begin, ensure you have the following installed:
    Open a terminal on your Raspberry Pi and clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/ekf-slam-lidar-raspberry-pi.git
-   cd ekf-slam-lidar-raspberry-pi
+   git clone https://github.com/Veera53/SLAMify.git
+

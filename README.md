@@ -25,14 +25,5 @@ Before you begin, ensure you have the following installed:
 - Raspberry Pi with Raspbian OS
 - Python 3.x
 - LiDAR sensor (compatible with Raspberry Pi)
-- Git
 
-### Installation
-
-1. **Clone the Repository**
-
-   Open a terminal on your Raspberry Pi and clone the repository:
-
-   ```bash
-   git clone https://github.com/Veera53/SLAMify.git
 

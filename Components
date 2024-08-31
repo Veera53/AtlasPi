@@ -1,11 +1,10 @@
-
 Raspberry Pi 5: The central processing unit for running your algorithms.
 RP LIDAR A2M12: For 2D mapping and obstacle detection.
 Camera Module (Raspberry Pi Camera v2): For visual perception.
 IMU Sensor MPU6050: For orientation and movement tracking.
 Motor Driver L298N: To control the motors driving the wheels.
-DC Motors with Encoders: For movement with feedback on the wheel position.
+DC Motors with Encoders: For a movement with feedback on the wheel position.
 Power Supply: Batteries and power management circuits suitable for Raspberry Pi and the other components.
 WiFi Dongle: For remote control and communication.*
 Chassis: A durable frame with mounting points for sensors and the Raspberry Pi.
-LEDs for Headlights, Brake Lights, Turn Signals: Simple visual indicators.
+LEDs for Headlights, Brake Lights, and Turn Signals: Simple visual indicators.

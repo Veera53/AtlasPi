@@ -18,9 +18,9 @@ ProjectQ is an autonomous robot project utilizing SLAM techniques with an Extend
 - **4WD Smart Robot Car Chassis Kit**: The robot's mechanical base, including motors and wheels.
 - **BO Motors (4x)**: Drive the robot's wheels.
 - **TB6612FNG Motor Driver**: Controls the motors.
-- **IMU Sensor (e.g., MPU6050)**: Tracks the robot's orientation and motion.
+- **IMU Sensor MPU6050**: Tracks the robot's orientation and motion.
 - **Power Supply (Battery Pack)**: Provides power to the Raspberry Pi and motors.
-- **Camera Module (Optional)**: Captures visual data for future enhancements.
+- **Camera Module **: Captures visual data for future enhancements.
 
 ## Software Setup
 ### Prerequisites

@@ -35,7 +35,7 @@ ProjectQ is an autonomous robot project utilizing SLAM techniques with an Extend
 2. **Set Up ROS Noetic**:
    - `sudo apt install ros-noetic-desktop-full`
 3. **Clone ProjectQ Repository**:
-   - `git clone https://github.com/yourusername/ProjectQ.git`
+   - `git clone https://github.com/Veera53/ProjectQ.git`
    - `cd ProjectQ`
 4. **Install Python Dependencies**:
    - `pip install -r requirements.txt`

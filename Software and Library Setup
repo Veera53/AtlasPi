@@ -1,14 +1,1 @@
-# AtlasPi
-AtlasPi is an advanced autonomous robot project that uses ROS and a Raspberry Pi 5 to achieve SLAM (Simultaneous Localization and Mapping) using an RP LIDAR A2M12.
-1. Setting Up the Software Environment
-1.1 Operating System Installation
-Install Ubuntu 20.04 on Raspberry Pi 5:
-Download the Ubuntu 20.04 image for Raspberry Pi from the official Ubuntu website.
-Use tools like Balena Etcher to flash the image onto a microSD card.
-Insert the microSD card into the Raspberry Pi and boot up.
-Complete the initial setup (user creation, Wi-Fi setup, etc.).
 
-1.2 Install ROS Noetic
-Set up the ROS Environment:
-Update and upgrade your system
-sudo apt update && sudo apt upgrade -y

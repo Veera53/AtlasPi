@@ -52,14 +52,36 @@ ProjectQ is an autonomous robot project utilizing SLAM techniques with an Extend
 
 ## File Structure
 ```plaintext
-ProjectQ/
+AtlasPi/
 │
-├── README.md              # Project documentation
-├── hardware/              # Hardware-related files
-├── software/              # Source code for SLAM, control algorithms
-│   ├── src/               # Core scripts
-│   ├── launch/            # ROS launch files
-│   └── config/            # Configuration files
-├── maps/                  # Saved maps
-├── requirements.txt       # Python dependencies list
-└── images/                # Visuals and diagrams
+├── hardware/
+│   ├── wiring_diagram.png
+│   ├── lidar_mounting_instructions.md
+│   └── motor_driver_specs.pdf
+│
+├── software/
+│   ├── src/
+│   │   ├── slam_node.py
+│   │   ├── motor_control.py
+│   │   └── sensor_integration.py
+│   ├── launch/
+│   │   ├── atlaspi.launch
+│   │   └── slam.launch
+│   ├── config/
+│   │   ├── lidar.yaml
+│   │   └── motor_config.yaml
+│   ├── CMakeLists.txt
+│   └── package.xml
+│
+├── maps/
+│   ├── home_map.pgm
+│   ├── home_map.yaml
+│   └── map_saving_instructions.md
+│
+├── images/
+│   ├── lidar_setup.jpg
+│   └── robot_complete.jpg
+│
+├── requirements.txt
+├── README.md
+└── LICENSE

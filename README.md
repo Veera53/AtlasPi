@@ -13,7 +13,7 @@ ProjectQ is an autonomous robot project utilizing SLAM techniques with an Extend
 7. [License](#license)
 
 ## Hardware Components
-- **Raspberry Pi 5**: Main processing unit for running the SLAM algorithm.
+- **Raspberry Pi 4**: Main processing unit for running the SLAM algorithm.
 - **RP LIDAR A2M12**: Provides 360-degree laser scanning for mapping.
 - **4WD Smart Robot Car Chassis Kit**: The robot's mechanical base, including motors and wheels.
 - **BO Motors (4x)**: Drive the robot's wheels.
@@ -24,7 +24,7 @@ ProjectQ is an autonomous robot project utilizing SLAM techniques with an Extend
 
 ## Software Setup
 ### Prerequisites
-- **Ubuntu 20.04** on Raspberry Pi 5
+- **Ubuntu 20.04** on Raspberry Pi 4
 - **ROS Noetic**: Required for SLAM and sensor packages.
 - **Python 3.x**: For custom scripts.
 - **Git**: For version control.

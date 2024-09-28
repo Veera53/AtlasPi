@@ -49,7 +49,7 @@ AtlasPi is an autonomous robot project utilizing SLAM techniques with an Extende
    - `python scripts/motion_control.py`
 4. **Visualize the Map**:
    - `rosrun rviz rviz`
-
+## File Structure
 AtlasPi/
 ├── README.md               # Overview of the project
 ├── LICENSE                 # License for the project (optional)

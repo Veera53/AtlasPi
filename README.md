@@ -50,38 +50,28 @@ AtlasPi is an autonomous robot project utilizing SLAM techniques with an Extende
 4. **Visualize the Map**:
    - `rosrun rviz rviz`
 
-## File Structure
-```plaintext
 AtlasPi/
-│
-├── hardware/
-│   ├── wiring_diagram.png
-│   ├── lidar_mounting_instructions.md
-│   └── motor_driver_specs.pdf
-│
-├── software/
-│   ├── src/
-│   │   ├── slam_node.py
-│   │   ├── motor_control.py
-│   │   └── sensor_integration.py
-│   ├── launch/
-│   │   ├── atlaspi.launch
-│   │   └── slam.launch
-│   ├── config/
-│   │   ├── lidar.yaml
-│   │   └── motor_config.yaml
-│   ├── CMakeLists.txt
-│   └── package.xml
-│
-├── maps/
-│   ├── home_map.pgm
-│   ├── home_map.yaml
-│   └── map_saving_instructions.md
-│
-├── images/
-│   ├── lidar_setup.jpg
-│   └── robot_complete.jpg
-│
-├── requirements.txt
-├── README.md
-└── LICENSE
+├── README.md               # Overview of the project
+├── LICENSE                 # License for the project (optional)
+├── docs/                   # Documentation folder
+│   ├── hardware.md         # Detailed documentation for hardware components
+│   ├── chassis.md          # Documentation for chassis kit
+│   ├── sensors.md          # Documentation for sensors (e.g., LIDAR, encoders)
+│   ├── software.md         # Documentation for software setup (ROS, algorithms, etc.)
+│   ├── wiring_diagram.png  # Visual wiring diagram for hardware connections
+│   └── block_diagram.png   # System architecture block diagram
+├── src/                    # Source code directory
+│   ├── arduino/            # Arduino-related code
+│   ├── raspberry_pi/       # Raspberry Pi scripts (SLAM, sensor control)
+│   └── python/             # Python scripts (e.g., sensor data processing)
+├── data/                   # Data directory
+│   ├── lidar_scans/        # Store LIDAR scan data (CSV, logs)
+│   └── odometry/           # Store odometry data
+├── images/                 # Images for documentation or results
+│   ├── chassis.png         # Image of the chassis assembly
+│   └── lidar_setup.png     # Image of the LIDAR setup
+├── tests/                  # Testing scripts
+│   ├── motor_test.py       # Script to test motor functionality
+│   └── lidar_test.py       # Script to test LIDAR functionality
+└── scripts/                # Helper scripts (e.g., installation, setup)
+    └── install_ros.sh      # Script to install ROS Noetic on Raspberry Pi

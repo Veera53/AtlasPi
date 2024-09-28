@@ -1,7 +1,7 @@
-# ProjectQ: SLAM with Raspberry Pi 5 and RP LIDAR A2M12
+# AtlasPi: SLAM with Raspberry Pi 4 Model-B and RP LiDAR A2M12
 
 ## Overview
-ProjectQ is an autonomous robot project utilizing SLAM techniques with an Extended Kalman Filter (EKF) on a Raspberry Pi 5. The project integrates various sensors for real-time mapping and navigation.
+AtlasPi is an autonomous robot project utilizing SLAM techniques with an Extended Kalman Filter (EKF) on a Raspberry Pi 4 Model-B. The project integrates various sensors for real-time mapping and navigation.
 
 ## Table of Contents
 1. [Hardware Components](#hardware-components)
@@ -13,14 +13,13 @@ ProjectQ is an autonomous robot project utilizing SLAM techniques with an Extend
 7. [License](#license)
 
 ## Hardware Components
-- **Raspberry Pi 4**: Main processing unit for running the SLAM algorithm.
-- **RP LIDAR A2M12**: Provides 360-degree laser scanning for mapping.
+- **Raspberry Pi 4 Model-B**: Main processing unit for running the SLAM algorithm.
+- **RP LiDAR A2M12**: Provides 360-degree laser scanning for mapping.
 - **4WD Smart Robot Car Chassis Kit**: The robot's mechanical base, including motors and wheels.
-- **BO Motors (4x)**: Drive the robot's wheels.
-- **TB6612FNG Motor Driver**: Controls the motors.
-- **IMU Sensor MPU6050**: Tracks the robot's orientation and motion.
+- **L293N Motor Driver**: Controls the motors.
+- **IMU Sensor MPU9250**: Tracks the robot's orientation and motion.
 - **Power Supply (Battery Pack)**: Provides power to the Raspberry Pi and motors.
-- **Camera Module **: Captures visual data for future enhancements.
+- **Camera Module(Optional) **: Captures visual data for future enhancements.
 
 ## Software Setup
 ### Prerequisites

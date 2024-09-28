@@ -17,9 +17,10 @@ AtlasPi is an autonomous robot project utilizing SLAM techniques with an Extende
 - **RP LiDAR A2M12**: Provides 360-degree laser scanning for mapping.
 - **4WD Smart Robot Car Chassis Kit**: The robot's mechanical base, including motors and wheels.
 - **L293N Motor Driver**: Controls the motors.
+- **Encoders**
 - **IMU Sensor MPU9250**: Tracks the robot's orientation and motion.
 - **Power Supply (Battery Pack)**: Provides power to the Raspberry Pi and motors.
-- **Camera Module(Optional) **: Captures visual data for future enhancements.
+- **Camera Module(Optional)**: Captures visual data for future enhancements.
 
 ## Software Setup
 ### Prerequisites
